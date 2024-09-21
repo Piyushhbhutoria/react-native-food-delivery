@@ -1,14 +1,9 @@
 import React from "react";
 import {
-  StyleSheet,
-  Text,
-  View,
   FlatList,
-  Image,
-  TouchableOpacity,
-  Button
+  StyleSheet,
+  View
 } from "react-native";
-import Constants from "../utils/constants";
 import foodData from "../food-data.json";
 import ListItem from "./ListItem";
 import CartButton from "./common/CartButton";

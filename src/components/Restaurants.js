@@ -1,11 +1,8 @@
 import React from "react";
 import {
-  StyleSheet,
-  Text,
-  View,
   FlatList,
-  Image,
-  TouchableOpacity
+  StyleSheet,
+  View
 } from "react-native";
 import restaurantsData from "../api/restaurants.json";
 import RestaurantItem from "./RestaurantItem";
@@ -24,9 +21,9 @@ export default class Restaurants extends React.Component {
       },
       headerRight: (
         <CartButton
-          // onPress={() => {
-          //   navigation.navigate("Cart");
-          // }}
+          onPress={() => {
+            navigation.navigate("Cart");
+          }}
         />
       )
     };

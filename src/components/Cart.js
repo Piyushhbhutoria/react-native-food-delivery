@@ -1,12 +1,4 @@
 import React from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  FlatList,
-  Image,
-  TouchableOpacity
-} from "react-native";
 
 import EmptyCart from "./common/EmptyCart";
 
