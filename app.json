@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "FoodShop",
+    "name": "food-shop",
     "description": "This project is really great.",
-    "slug": "foodshop",
+    "slug": "food-shop",
     "privacy": "public",
     "platforms": [
       "ios",

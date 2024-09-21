@@ -12,22 +12,7 @@ export default class Restaurants extends React.Component {
   constructor(props) {
     super(props);
   }
-  static navigationOptions = ({ navigation }) => {
-    return {
-      headerTitle: "Restaurants",
-      headerStyle: {
-        elevation: 0,
-        shadowOpacity: 0
-      },
-      headerRight: (
-        <CartButton
-          onPress={() => {
-            navigation.navigate("Cart");
-          }}
-        />
-      )
-    };
-  };
+  
   handleNaviagation = () => {
     this.props.navigation.navigate("Dishes");
   };

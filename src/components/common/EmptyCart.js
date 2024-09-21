@@ -20,7 +20,6 @@ class EmptyCart extends React.Component {
           >
             Cart is empty!
           </Text>
-          <EmptyCart />
         </View>
       </View>
     );
